@@ -1,8 +1,5 @@
 # DlPapers
 
-##information point of view
-This model is trained on google colab using free [Tesla K80 GPU](https://medium.com/deep-learning-turkey/google-colab-free-gpu-tutorial-e113627b9f5d) which has preinstalled some basic [libaries](https://dbsnail.com/2017/10/26/quick-check-of-google-colaboratory/) while others have to be installed every time a new colaboratory is created.
-
 ## about
 
 >AlexNet is the name of a [convolutional neural](https://en.wikipedia.org/wiki/Convolutional_neural_network) network, originally written with [CUDA](https://en.wikipedia.org/wiki/CUDA) to run with [GPU](https://en.wikipedia.org/wiki/GPU) support, which competed in the [ImageNet Large Scale Visual Recognition Challenge](https://en.wikipedia.org/wiki/ImageNet_Large_Scale_Visual_Recognition_Challenge) in 2012. The network achieved a top-5 error of 15.3%, more than 10.8 percentage points ahead of the runner up. AlexNet was designed by the SuperVision group, consisting of Alex Krizhevsky, Geoffrey Hinton, and Ilya Sutskever. -wikipedia
@@ -49,6 +46,9 @@ that proved to be very effective.
 1. Download the image file from the link below.(LSVRC2012 train,val,test,Development kit (Task 1))
 1. untar.(There is a script in `etc`)
 1. Modify  `IMAGENET_PATH` in train.py hyperparameter(maybe you need).
+
+## information regaurding GPU training
+This model is trained on google colab using free [Tesla K80 GPU](https://medium.com/deep-learning-turkey/google-colab-free-gpu-tutorial-e113627b9f5d) which has preinstalled some basic [packages](https://dbsnail.com/2017/10/26/quick-check-of-google-colaboratory/) while others have to be installed every time a new colaboratory is created.
 
 ## train
 ___
